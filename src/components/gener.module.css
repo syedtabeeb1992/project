@@ -1,0 +1,10 @@
+.next{
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    flex:1
+}
+
+.next img{
+    width: 20px;
+}

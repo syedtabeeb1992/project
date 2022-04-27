@@ -1,0 +1,102 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+
+}
+
+
+/* Global Styles */
+
+.container{
+  margin: auto;
+    width: 80%;
+}
+.maincolor{
+  color: #5E56E7;
+}
+.greyonebg {
+ background:  #F0F0F6;
+}
+
+
+h1{
+  font-size: 48px;
+  color: #5E56E7;
+}
+
+h2{
+  font-size: 30px;
+  color: #5E56E7;
+}
+.booklistWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  margin-top: 30px;
+  padding: 24px 0px;
+  gap: 20px;
+}
+
+body .inputbox {
+  border-radius: 4px;
+  padding: 10px 10px;
+  Height : 30px;
+  border-radius: 4px;
+    padding: 0px 30px;
+    Height: 30px;
+    border: none;
+    box-shadow: none;
+    margin-top: 30px;
+    width: 100%;;
+
+}
+
+.inputbox:focus-visible {
+
+  border: 2px solid #5E56E7!important;
+  border-color: #5E56E7;
+  box-shadow: none;
+  outline: none;
+}
+.inputboxwrapper {
+  position: relative;
+}
+
+.inputboxwrapper img{
+  position: absolute;
+  width: 15px;
+  left: 8px;
+  top: 30px;
+}
+
+
+@media (min-width:300px) and (max-width:900px) {
+  .booklistWrapper {
+    justify-content: center;}
+
+    
+.container {
+  margin: auto;
+  width: 92%;
+}
+
+body .inputbox {
+  margin-bottom: 30px;;
+}
+}
+
+
+
+
+

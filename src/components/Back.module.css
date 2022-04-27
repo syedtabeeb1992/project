@@ -1,0 +1,15 @@
+.backtext {
+}
+
+.backwrapper {
+    display: flex;
+    grid-gap: 15px;
+    gap: 15px;
+    height: 105px;
+    align-items: center;
+}
+
+.backwrapper img {
+  width: 20px;
+  margin-top: 9px;
+}
